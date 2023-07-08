@@ -55,9 +55,9 @@ header{
     width: 600px;
     height: 150px;
     background-color: #FFF8F3;
-    margin: 130px 230px;
+    margin: 50px 230px;
     text-align: center;
-    padding: 130px 150px;
+    padding: 100px 150px;
 }
 
 .aboutme-info{
@@ -134,3 +134,25 @@ header{
 }
 
 /* footer area styling */
+footer{
+    padding-top: 20px;
+    background-color: #FFF8F3;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 200px;
+}
+
+.footer-contact-area input, textarea{
+    width: 100%;
+    display: block;
+    margin: 5px;
+    padding: 10px;
+}
+
+#contact-btn{
+    max-width: 90px;
+}
