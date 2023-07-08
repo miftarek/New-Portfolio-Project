@@ -90,3 +90,47 @@ header{
 .box img, h4, p{
     margin: 10px;
 }
+
+/* resume summary style */
+
+.resume-summary-container{
+    display: flex;
+    margin: 20px 200px;
+}
+
+.resume-summary h2{
+    text-align: center;
+}
+
+.education{
+    margin-right: 10px;
+}
+
+.experience{
+    margin-left: 10px;
+}
+
+.education h2{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.experience h2{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.education-item h4, p{
+    color: #757575;
+}
+.experience-item h4, p{
+    color: #757575;
+}
+
+.above-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+/* footer area styling */
