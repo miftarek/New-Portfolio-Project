@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #FFF8F3;
+}
+
+.lighter-text{
+    color: #FD6E0A;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.menu-item{
+    display: inline;
+    padding: 15px;
+}
+
+.primary-btn{
+    background-color: #FD6E0A;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+}
+
+/* banner aread style */
+
+.banner-container{
+    background-image: url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner-content{
+    width: 300px;
+}
+
+.banner-content p{
+    margin: 20px 0;
+}
