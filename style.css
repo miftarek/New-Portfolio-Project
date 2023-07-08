@@ -49,3 +49,13 @@ header{
 .banner-content p{
     margin: 20px 0;
 }
+/* about section style */
+
+.about-section{
+    width: 540px;
+    height: 150px;
+    background-color: #FFF8F3;
+    margin: 130px 230px;
+    text-align: center;
+    padding: 130px 150px;
+}
